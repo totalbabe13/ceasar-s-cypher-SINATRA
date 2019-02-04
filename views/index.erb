@@ -5,11 +5,16 @@
 </head>
 <body>
 	<P>CEASAR'S SALAD CYPHER</P>
-	<form>
+	<form >
 	
-		WORD TO ENCRYPT<br>
-    	<input type="text"><br>
-    	<input type="submit" name="user_word" value="Submit">
+		<!-- WORD TO ENCRYPT<br> -->
+    	WORD TO ENCRYPT: --> 
+    	<input type="text" name="userword1" value = <%=userword%>><br>
+    	<input type="number" name="usercode1" value = <%=usercode%>><br>
+    	<input type="submit" value="Submit">
 	</form>
+
+	<p> <%= userword %></p> 
+	<p> <%= usercode %></p> 
 </body>
 </html>
