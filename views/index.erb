@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<style>
+		body { background-color: #70ffab; }
+	</style>
 	<title>Ceasar // SINATRA</title>
 </head>
 <body>
@@ -10,11 +13,15 @@
 		<!-- WORD TO ENCRYPT<br> -->
     	WORD TO ENCRYPT: --> 
     	<input type="text" name="userword1" value = <%=userword%>><br>
+    	CYPHER NUMBER: --> 
     	<input type="number" name="usercode1" value = <%=usercode%>><br>
     	<input type="submit" value="Submit">
 	</form>
+	    <h2>YOUR ENCRPTYED WORD WILL APPEAR HERE:</h2>
 
-	<p> <%= userword %></p> 
-	<p> <%= usercode %></p> 
+        <p> <%= testing %></p>
+        <p>now leave me alone!</p>
+<!-- 	<p> <%= userword %></p> 
+	    <p> <%= usercode %></p>  -->
 </body>
 </html>
